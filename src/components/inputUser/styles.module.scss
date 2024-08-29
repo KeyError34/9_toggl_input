@@ -1,0 +1,32 @@
+p{
+    text-align: center;
+}
+.input {
+
+  width: 100%; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px; 
+  font-family: Arial, sans-serif;
+  outline: none; 
+  transition: border-color 0.3s ease; 
+}
+
+
+.input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2); 
+}
+
+
+.input.error {
+  border-color: #dc3545; 
+}
+
+
+.input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed; 
+}
